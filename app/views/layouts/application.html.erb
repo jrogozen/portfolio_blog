@@ -13,7 +13,26 @@
 
   <body ng-app="Portfolio">
 
-    <%= yield %>
+    <header id="main-header">
+
+      <div class="top-bar">
+        <div class="row">
+          <div class="large-12 columns">
+            social media + quick links
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <div class="main">
+      <%= yield %>
+    </div>
+
+    <footer id="main-footer">
+    </footer>
+
     <%= javascript_include_tag "application" %>
+
   </body>
 </html>
