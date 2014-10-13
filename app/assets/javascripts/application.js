@@ -12,6 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require underscore
-//= require boostrap
+//= require foundation
 //= require angular
+//= require angular-route
+//= require angular-rails-templates
+//= require_tree ../templates
+//= require_tree
+$(function(){ $(document).foundation(); });
