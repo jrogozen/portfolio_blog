@@ -4,6 +4,11 @@ $border: #F2F6F7;
   color: white;
   .top-bar {
     background: black;
+    span {
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
 
@@ -71,7 +76,6 @@ $border: #F2F6F7;
   }
 }
 
-
 .portfolio-slide {
   .portfolio-item {
     margin-top: 40px;
@@ -96,7 +100,6 @@ $border: #F2F6F7;
   }
 }
 
-
 .portfolio.list {
   background: url("bg4.jpg");
   position: relative;
@@ -107,13 +110,23 @@ $border: #F2F6F7;
     text-align: center;
   }
 }
-.social.list {
-  background: url("bg3.jpg");
+
+
+.social {
+  background: black;
+  padding: 20px 0;
+  text-align: center;
+  a {
+    color: white;
+    font-size: 32px;
+    margin: 0 10px; 
+  }
 }
 
 .red, .purple, .orange, .green {
   transition: color 0.5s;
 }
+
 .red {
  &:hover {
   color: #EF746F;
@@ -133,5 +146,21 @@ $border: #F2F6F7;
 .green {
   &:hover {
     color: #B3CC57;
+  }
+}
+.blue {
+  &:hover {
+    color: #28CBE0;
+  }
+}
+
+.back-to-top {
+  position: absolute;
+  bottom: 10px;
+  font-size: 32px;
+  color: white;
+  right: 50px;
+  &:hover {
+    cursor: pointer;
   }
 }
