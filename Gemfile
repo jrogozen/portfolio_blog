@@ -41,4 +41,6 @@ gem 'spring',        group: :development
 gem "bower-rails", "~> 0.9.0"
 gem 'angular-rails-templates'
 gem 'foundation-rails'
+gem 'font-awesome-rails'
+gem 'slick_rails'
 

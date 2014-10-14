@@ -17,5 +17,7 @@
 //= require angular-route
 //= require angular-rails-templates
 //= require_tree ../templates
+//= require velocity
+//= require slick
 //= require_tree
 $(function(){ $(document).foundation(); });

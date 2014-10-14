@@ -35,7 +35,7 @@
 
         <div class="sub-content">
 
-          <p class="skills">rails, sinatra, APIs, javascript, angular, underscore, jQuery, scss, foundation/boostrap</p>
+          <p class="skills"><span class="bigger">rails</span>, <span class="biggest">sinatra</span>, APIs, javascript, <span class="bigger">angular</span>, underscore, jQuery, <span class="biggest">scss</span>, foundation/boostrap</p>
 
         </div>
       </div>
@@ -47,20 +47,38 @@
 <div class="portfolio list slide">
 <div class="grey-mask"></div>
   <div class="row">
-  <div class="large-12 columns">
-    <h2>portfolio</h2>
+    <div class="large-12 columns">
 
-    <div class="portfolio item">
-      <h3>MeTube</h3>
-      <p>YouTube clone</p>
-      <ul>
-        <li>rails</li>
-        <li>foundation</li>
-        <li>youtube API</li>
-        <li>jQuery</li>
-        <li>scss</li>
-      </ul>
-    </div>
+      <div class="portfolio-slide">
+
+        <div class="portfolio-item">
+          <div class="image">
+            <%= image_tag "metube.png" %>
+          </div>
+          <div class="description">
+            <h5>MeTube</h5>
+            <p>Youtube clone.</p>
+            <p>ruby on rails, jQuery, foundation, youtube API</p>
+            <p><a href="" class="button small">view site</a></p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="image">
+            <%= image_tag "cupper.png" %>
+          </div>
+          <div class="description">
+            <h5>Cupper</h5>
+            <p>Real-time multiplayer King's Cup Game</p>
+            <p>firebase, angular, fireangular, yeoman</p>
+            <p><a href="" class="button small">view site</a></p>
+          </div>
+        </div>
+
+
+       
+      </div>     
+
     </div>
   </div>
 </div>
