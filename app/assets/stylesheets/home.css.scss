@@ -1,10 +1,10 @@
 $border: #F2F6F7;
 
-body {
+body, p, a, .button {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -26,6 +26,8 @@ h1,h2,h3,h4,h5,h6 {
     span {
       margin-right: 20px;
       &:hover {
+        border-bottom: 1px solid white;
+        padding-bottom: 3px;
         cursor: pointer;
       }
     }
@@ -113,7 +115,7 @@ h1,h2,h3,h4,h5,h6 {
     }
     .description {
       overflow: hidden;
-      h5 {
+      h3 {
         color: white;
       }
     }
@@ -140,6 +142,10 @@ h1,h2,h3,h4,h5,h6 {
     color: white;
     font-size: 32px;
     margin: 0 10px; 
+    &:hover {
+      padding-bottom: 5px;
+      border-bottom: 2px solid white;
+    }
   }
 }
 
