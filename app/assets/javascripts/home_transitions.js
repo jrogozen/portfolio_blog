@@ -22,6 +22,10 @@ $(document).ready(function(){
     goToByScroll("portfolio");
   });
 
+  $('.contact-link').click(function() {
+    goToByScroll("social");
+  });
+
 
 
 });

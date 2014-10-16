@@ -9,20 +9,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button {
-  background: white;
-  color: #556270;
+  color: white;
+  background: #556270;
   border-radius: 5px;
   border: 2px solid white;
   &:hover {
-    color: white;
-    background: #556270;
+    background: white;
+    color: #556270; 
   }
+}
+
+.button.inverted {
+  color: #556270;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  &:hover {
+    background: #556270;
+    color: white; 
+  } 
 }
 
 #main-header {
   color: white;
   .top-bar {
     background: black;
+    position: relative;
     span {
       margin-right: 20px;
       &:hover {
@@ -33,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+
 
 .slide {
   height: 750px;
@@ -78,13 +91,9 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding: 10px 20px;
     border-radius: 10px;
-    opacity: 0.4;
+    opacity: 0.7;
     margin-top: 50px;
     transition: opacity .5s;
-
-    &:hover {
-      opacity: 0.7;
-    }
 
     h2 {
       font-size: 72px;
@@ -101,7 +110,6 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio-slide {
   .portfolio-item {
     margin-top: 40px;
-    // background: rgba(225,225,225,0.3);
     border-radius: 10px;
     padding: 20px;
     color: white;
@@ -149,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.red, .purple, .orange, .green {
+.red, .purple, .orange, .green, .yellow, .blue {
   transition: color 0.5s;
 }
 
@@ -179,6 +187,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #28CBE0;
   }
 }
+.yellow {
+  &:hover {
+    color: #FFE181;
+  }
+}
 
 .back-to-top {
   position: absolute;
@@ -190,3 +203,4 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
   }
 }
+
