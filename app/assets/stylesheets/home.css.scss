@@ -52,7 +52,12 @@ h1, h2, h3, h4, h5, h6 {
   background: white;
   background-size: cover !important;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  // border-bottom: 4px solid white;
+
+  -webkit-box-shadow: 0px 4px 11px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 4px 11px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 4px 11px 0px rgba(0,0,0,0.4);
 
   .right {
     float: right;
@@ -74,12 +79,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 }
+
 .intro {
   background: url("bg2.jpeg");
+  position: relative;
+  z-index: 30;
 }
+
 .skills.list {
   height: 400px;
   background: url("bg1.jpeg");
+  z-index: 20;
+  position: relative;
 
   .content {
     padding-top: 40px;
@@ -108,6 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .portfolio-slide {
+  position: relative;
+  z-index: 10;
   .portfolio-item {
     margin-top: 40px;
     border-radius: 10px;
@@ -143,6 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .social {
+  position: relative;
   background: black;
   padding: 20px 0;
   text-align: center;
@@ -195,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   font-size: 32px;
   color: white;
   right: 50px;
